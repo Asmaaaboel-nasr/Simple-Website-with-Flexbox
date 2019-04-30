@@ -1,0 +1,204 @@
+
+body { 
+    color: #fff;
+    box-sizing: border-box; 
+    font-family:'Raleway','[RosewoodStd]';   
+    font-size:16px;
+    margin: 0;
+    padding: 0;
+}
+*{
+    padding: 0;
+    margin: 0
+}
+a{
+    color: #fff;
+    text-decoration: none
+}
+p.top,
+.block p{
+    line-height: 30px
+}
+
+/* start global*/
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding:0 15px;
+}
+.center{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px
+}
+.align-center{text-align: center}
+li{list-style:none}
+.d-flex{display: flex}
+.border{
+    width: 50px;
+    height: 2px;
+    background-color: #Fff;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+.top{margin-top: 30px;}
+/*start nav*/
+.nav{
+    background-image:url(../images/header.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.nav .nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0;
+}
+.nav ul li{padding-right: 20px}
+
+.nav .content h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.nav .bread{display:none}
+.nav .content button,
+.usage button,
+.download button
+{
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #F05F40;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+}
+/*start services*/
+.usage{
+    background-color: #F05F40;
+    padding: 70px
+}
+.usage button
+{
+    background-color: #fff;
+    color: black;
+    margin-top: 30px;
+}
+.usage button a{color: #000}
+.usage .border{background-color: #fff}
+.usage p,
+.contact p
+{
+    font-size: 20px;
+    line-height: 30px
+}
+.services{
+    background-color: #fff;
+    color: black;
+    padding: 70px
+}
+.services .blocks{margin-top: 30px}
+.services .block{
+    margin-top: 20px;
+    text-align: center
+}
+.services .block > .fa{
+    font-size: 40px;
+    margin-bottom: 10px
+}
+.services .fa-heart{
+    color: #F05F40;
+    font-size: 40px;
+}
+.blocks h3{margin-bottom: 10px}
+.figure{
+    display: flex;
+    margin-bottom: -5px;
+}
+.figure > div{flex-basis: 33.333%}
+.figure > div img {width: 100%}
+/*start download*/
+.download{
+    background-color: black;
+    color: #fff;
+    padding: 70px
+}
+.download h4{margin-bottom: 20px}
+/*start contact*/
+.contact{
+    color:black;
+    padding: 50px
+}
+.contact p{
+    margin-bottom: 20px;
+    line-height: 30px
+}
+.contact .d-flex{justify-content: center}
+.contact .border,
+.services .border{
+    background-color: #F05F40
+}
+.contact .info{padding-right: 50px}
+.info i{margin-bottom: 20px}
+.contact h5.theme{color: #F05F40}
+/*medium devices*/
+@media (min-width:768px) and (max-width: 992px){
+    .nav .content h1 {font-size: 16px}    
+    p.top{font-size: 25px}
+    .block{margin-right: 20px}
+}
+/*small devices*/
+@media (min-width:576px) and (max-width: 768px){
+    .nav .content h1{
+    font-size: 20px;
+    line-height: 30px;
+    }
+    .block{margin-right: 20px}
+}
+/*xs devices*/
+@media (max-width:576px) {   
+    body{
+        overflow-x: hidden;
+    }
+    .nav .container{
+        padding:0;
+        width:100%
+    }
+    .nav-items{
+        background-color:#fff;
+        color:#F05F40;
+        padding-left: 20px
+    }
+    .nav .links{
+        display:none;
+        background-color:#fff
+    }
+    .nav .bread{
+        display:block;
+        padding-right: 30px;
+        color: #ddd; 
+    }
+    .nav .content h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .usage h3{font-size: 10px}     
+.d-flex{flex-direction:column}
+    .contact h1{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .contact .info{
+        margin-top:10px;
+        margin-bottom:10px
+    }
+    .info i{margin-bottom:10px}
+}
+
+
+
+
+ 
+
